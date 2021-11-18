@@ -15,6 +15,8 @@ Date date = new Date();
 		
 		System.out.println("Dia do mês "+date.getDate());
 		
+		System.out.println("Ano "+ (date.getYear() + 1900));
+		
 		//Formatando datas
 		
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
